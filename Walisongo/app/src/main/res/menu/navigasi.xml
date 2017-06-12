@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="all">
+        <item
+            android:id="@+id/nav_home"
+            android:title="@string/navigation_view_item_1"
+            android:icon="@drawable/ic_chrome_reader_mode_black_24dp" />
+        <item
+            android:id="@+id/nav_walisongo"
+            android:title="@string/navigation_view_item_2"
+            android:icon="@drawable/ic_chrome_reader_mode_black_24dp"/>
+
+        <item
+            android:id="@+id/nav_about"
+            android:title="@string/navigation_view_item_3"
+            android:icon="@drawable/ic_chrome_reader_mode_black_24dp"/>
+        <item
+            android:id="@+id/nav_keluar"
+            android:title="@string/navigation_view_item_4"
+            android:icon="@drawable/ic_exit_to_app_black_24dp"/>
+    </group>
+
+</menu>

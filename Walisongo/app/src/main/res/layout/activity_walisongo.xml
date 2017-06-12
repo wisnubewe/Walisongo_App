@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="id.silmi.walisongo.Walisongo">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal|top"
+            android:gravity="top|center_horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="MENU"
+                android:id="@+id/textView2"
+                android:padding="10dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"
+                android:background="#252525" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center"
+            android:weightSum="1"
+            android:padding="10dp">
+
+            <ImageButton
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:id="@+id/imageButtonWali1"
+                android:src="@drawable/sunan_gresik"
+                android:scaleType="fitCenter"
+                android:padding="0dp"
+                android:layout_margin="5dp" />
+
+            <ImageButton
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:id="@+id/imageButtonWali2"
+                android:padding="0dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/sunan_ampel"
+                android:layout_margin="5dp" />
+
+            <ImageButton
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:id="@+id/imageButtonWali3"
+                android:padding="0dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/sunan_bonang"
+                android:layout_margin="5dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:weightSum="1"
+            android:padding="10dp">
+
+            <ImageButton
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:id="@+id/imageButtonWali4"
+                android:src="@drawable/sunan_giri"
+                android:padding="0dp"
+                android:cropToPadding="false"
+                android:scaleType="fitCenter"
+                android:layout_margin="5dp" />
+
+            <ImageButton
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:id="@+id/imageButtonWali5"
+                android:padding="0dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/sunan_kalijogo"
+                android:layout_margin="5dp" />
+
+            <ImageButton
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:id="@+id/imageButtonWali6"
+                android:padding="0dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/sunan_drajat"
+                android:layout_margin="5dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|right"
+            android:weightSum="1"
+            android:padding="10dp">
+
+            <ImageButton
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:id="@+id/imageButtonWali7"
+                android:src="@drawable/sunan_kudus"
+                android:scaleType="fitCenter"
+                android:padding="0dp"
+                android:layout_margin="5dp" />
+
+            <ImageButton
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:id="@+id/imageButtonWali8"
+                android:padding="0dp"
+                android:src="@drawable/sunan_muria"
+                android:scaleType="fitCenter"
+                android:layout_margin="5dp" />
+
+            <ImageButton
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:id="@+id/imageButtonWali9"
+                android:padding="0dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/sunan_gunungjati"
+                android:layout_margin="5dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignWithParentIfMissing="false"
+            android:layout_alignParentRight="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="right|bottom">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Kembali"
+                android:id="@+id/buttonKembali"
+                android:layout_alignTop="@+id/buttonMasuk"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_centerHorizontal="true" />
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+</LinearLayout>
